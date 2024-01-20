@@ -1,0 +1,133 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #e3bc9a;
+  font-family: 'arial', sans-serif;
+}
+
+
+
+/** HEADER **/
+#header-nav {
+  background-color:  #F3E5AB;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/personal-photo.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Richards name */
+  font-family: 'Lora', serif;
+  color: #D2691E;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+
+.item { 
+    border: 3px solid #619b8a;
+    border-radius: 10px;
+}
+
+.item img {
+    width: 40%;
+    border-radius: 2px 2px 0 0;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+
+
+.navbar-brand p { /* another picture */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star_K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background:  #8A4B08;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+
+/* END FOOTER */
+
+
+/* HOME PAGE */
+
+@media (max-width: 767px) {
+  #collapsable-nav a {
+    font-size: 2em;
+  }
+
+/* END HOME PAGE */
